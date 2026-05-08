@@ -1,12 +1,12 @@
 # appointments.py - Appointment Scheduling Feature
 
 class Appointment:
-    def __init__(self, patient_name, doctor_name, date, time, location):
+    def __init__(self, patient_name, doctor_name, date, time, city, state):
         self.patient_name = patient_name
         self.doctor_name = doctor_name
         self.date = date
-        self.time = time
-        self.location = location
+        self.city = city  
+        self.state = state 
 
 
     def schedule(self):
